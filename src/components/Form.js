@@ -6,6 +6,10 @@ import {
   TextInput,
   StyleSheet,
 } from 'react-native';
+import {
+  responsiveHeight,
+  responsiveWidth,
+} from 'react-native-responsive-dimensions';
 
 // Procurar um botão melhor pra adicionar depois
 
@@ -28,9 +32,9 @@ const Form = () => (
 const styles = StyleSheet.create({
   input: {
     backgroundColor: '#fff',
-    width: 400,
-    height: 40,
-    margin: 20,
+    width: responsiveWidth(100),
+    height: responsiveHeight(7),
+    margin: 10,
   },
   button: {
     backgroundColor: '#743fcd',
