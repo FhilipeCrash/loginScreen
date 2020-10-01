@@ -16,7 +16,11 @@ import {
 const Form = () => (
   <View>
     <TextInput style={styles.input} placeholder="Username or Email" />
-    <TextInput style={styles.input} placeholder="Password" />
+    <TextInput
+      style={styles.input}
+      secureTextEntry={true}
+      placeholder="Password"
+    />
     {/* <Button
       style={styles.button}
       title="Sign In"
@@ -32,18 +36,19 @@ const Form = () => (
 const styles = StyleSheet.create({
   input: {
     backgroundColor: '#fff',
-    width: responsiveWidth(100),
+    width: responsiveWidth(95),
     height: responsiveHeight(7),
     margin: 10,
   },
   button: {
     backgroundColor: '#743fcd',
     borderRadius: 40,
-    width: 400,
+    width: responsiveWidth(90),
     height: 40,
-    paddingLeft: 180,
+    paddingLeft: 150,
     paddingTop: 10,
     marginLeft: 20,
+    marginTop: 20,
   },
 });
 

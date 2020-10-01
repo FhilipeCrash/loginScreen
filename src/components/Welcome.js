@@ -10,11 +10,13 @@ const Welcome = () => (
 
 const styles = StyleSheet.create({
   title: {
+    fontFamily: 'DMSans-Regular',
     color: '#000',
     fontSize: 30,
     fontWeight: 'bold',
   },
   subTitle: {
+    fontFamily: 'DMSans-Regular',
     color: '#59595b',
     fontSize: 17,
   },
