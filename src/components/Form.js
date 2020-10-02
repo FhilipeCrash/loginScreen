@@ -28,7 +28,7 @@ const Form = () => (
       onPress={() => Alert.alert('Sing in')}
     /> */}
     <TouchableOpacity style={styles.button}>
-      <Text style={{color: '#fff', fontWeight: 'bold'}}>Sign In</Text>
+      <Text style={{color: '#fff', fontWeight: 'bold', textAlign: 'center'}}>Sign In</Text>
     </TouchableOpacity>
   </View>
 );
@@ -44,8 +44,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#743fcd',
     borderRadius: 40,
     width: responsiveWidth(90),
-    height: 40,
-    paddingLeft: 150,
+    height: responsiveHeight(5),
     paddingTop: 10,
     marginLeft: 20,
     marginTop: 20,
