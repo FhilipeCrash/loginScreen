@@ -6,7 +6,8 @@
 ![objective](/artworks/objective.png)
 
 ## Current state
-![current](/artworks/current.png)
+![current-android](/artworks/current-android.png)
+![current-ios](/artworks/current-ios.png)
 
 <p align="center">
   <a href="https://github.com/FhilipeCrash">
