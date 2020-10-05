@@ -1,5 +1,9 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
+import {
+  responsiveFontSize,
+  responsiveWidth,
+} from 'react-native-responsive-dimensions';
 
 const Welcome = () => (
   <View>
@@ -11,18 +15,18 @@ const Welcome = () => (
 const styles = StyleSheet.create({
   title: {
     color: '#000',
-    fontSize: 30,
+    fontSize: responsiveFontSize(3.5),
     textAlign: 'left',
     fontFamily: 'DMSans-Bold',
-    marginLeft: 10,
+    marginLeft: responsiveWidth(2),
     marginBottom: 15,
   },
   subTitle: {
     color: '#59595b',
-    fontSize: 17,
+    fontSize: responsiveFontSize(2.3),
     fontFamily: 'DMSans-Regular',
-    marginLeft: 10,
-    marginBottom: 60,
+    marginLeft: responsiveWidth(2),
+    marginBottom: 70,
   },
 });
 

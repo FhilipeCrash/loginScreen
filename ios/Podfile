@@ -8,6 +8,7 @@ target 'loginScreen' do
 
   use_react_native!(:path => config["reactNativePath"])
 
+
   target 'loginScreenTests' do
     inherit! :complete
     # Pods for testing

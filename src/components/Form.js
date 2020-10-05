@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     width: responsiveWidth(85),
     height: responsiveHeight(7),
-    margin: 10,
+    marginLeft: responsiveWidth(2),
     marginBottom: 30,
   },
   button: {
@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
     width: responsiveWidth(85),
     height: responsiveHeight(5),
     paddingTop: 10,
-    marginLeft: 10,
+    marginLeft: responsiveWidth(2),
     marginTop: 150,
   },
 });
