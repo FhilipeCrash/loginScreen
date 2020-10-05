@@ -14,11 +14,15 @@ const styles = StyleSheet.create({
     fontSize: 30,
     textAlign: 'left',
     fontFamily: 'DMSans-Bold',
+    marginLeft: 10,
+    marginBottom: 15,
   },
   subTitle: {
     color: '#59595b',
     fontSize: 17,
     fontFamily: 'DMSans-Regular',
+    marginLeft: 10,
+    marginBottom: 60,
   },
 });
 

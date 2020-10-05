@@ -10,6 +10,7 @@ import {
   responsiveHeight,
   responsiveWidth,
 } from 'react-native-responsive-dimensions';
+import LinearGradient from 'react-native-linear-gradient';
 
 // Procurar um botão melhor pra adicionar depois
 
@@ -21,33 +22,35 @@ const Form = () => (
       secureTextEntry={true}
       placeholder="Password"
     />
-    {/* <Button
-      style={styles.button}
-      title="Sign In"
-      color="#743fcd"
-      onPress={() => Alert.alert('Sing in')}
-    /> */}
-    <TouchableOpacity style={styles.button}>
-      <Text style={{color: '#fff', fontWeight: 'bold', textAlign: 'center'}}>Sign In</Text>
-    </TouchableOpacity>
+    {/* <TouchableOpacity style={styles.button}>
+      <Text style={{color: '#fff', fontWeight: 'bold', textAlign: 'center'}}>SIGN IN</Text>
+    </TouchableOpacity> */}
+    <LinearGradient
+      colors={['#884BCB', '#7A43CB', '#713ECD']}
+      style={styles.button}>
+      <Text style={{color: '#fff', fontWeight: 'bold', textAlign: 'center'}}>
+        SIGN IN
+      </Text>
+    </LinearGradient>
   </View>
 );
 
 const styles = StyleSheet.create({
   input: {
     backgroundColor: '#fff',
-    width: responsiveWidth(95),
+    width: responsiveWidth(85),
     height: responsiveHeight(7),
     margin: 10,
+    marginBottom: 30,
   },
   button: {
     backgroundColor: '#743fcd',
     borderRadius: 40,
-    width: responsiveWidth(90),
+    width: responsiveWidth(85),
     height: responsiveHeight(5),
     paddingTop: 10,
-    marginLeft: 20,
-    marginTop: 20,
+    marginLeft: 10,
+    marginTop: 150,
   },
 });
 

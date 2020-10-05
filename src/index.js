@@ -10,7 +10,8 @@ const App = () => (
       backgroundColor: '#dfdfdf',
       flex: 1,
       justifyContent: 'center',
-      alignItems: 'center',
+      alignItems: 'flex-start',
+      paddingLeft: 30,
     }}>
     <Welcome />
     <Form />
