@@ -3,11 +3,19 @@
 ### The front-end of a login screen developed in ReactJS for learning purposes
 
 ## Objective
-![objective](/artworks/objective.png)
+<h1 align="center">
+  <img alt="Objective" src="https://raw.githubusercontent.com/FhilipeCrash/loginScreen/master/artworks/objective.png" width="300px" />
+</h1>
 
 ## Current state
-![current-android](/artworks/current-android.png)
-![current-ios](/artworks/current-ios.png)
+<h1 align="left">
+  <img alt="Login screen android" src="https://raw.githubusercontent.com/FhilipeCrash/loginScreen/master/artworks/current-android.png" width="300px" />
+</h1>
+
+<h1 align="right">
+  <img alt="Login screen ios" src="https://raw.githubusercontent.com/FhilipeCrash/loginScreen/master/artworks/current-ios.png" width="300px" />
+</h1>
+
 
 <p align="center">
   <a href="https://github.com/FhilipeCrash">
