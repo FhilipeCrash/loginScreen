@@ -8,11 +8,9 @@
 </h1>
 
 ## Current state
-<h1 align="left">
+<h1 align="center">
   <img alt="Login screen android" src="https://raw.githubusercontent.com/FhilipeCrash/loginScreen/master/artworks/current-android.png" width="300px" />
-</h1>
 
-<h1 align="right">
   <img alt="Login screen ios" src="https://raw.githubusercontent.com/FhilipeCrash/loginScreen/master/artworks/current-ios.png" width="300px" />
 </h1>
 
