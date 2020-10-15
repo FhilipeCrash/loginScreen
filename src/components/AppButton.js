@@ -8,7 +8,7 @@ import {
 import LinearGradient from 'react-native-linear-gradient';
 
 const AppButton = () => (
-  <View>
+  <View style={{marginTop: 150}}>
     <TouchableOpacity onPress={() => Alert.alert('Login')}>
       <LinearGradient
         colors={['#884BCB', '#7A43CB', '#713ECD']}
@@ -35,7 +35,6 @@ const styles = StyleSheet.create({
     height: responsiveHeight(5),
     paddingTop: 10,
     marginLeft: responsiveWidth(2),
-    marginTop: 150,
   },
 });
 
