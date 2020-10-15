@@ -13,7 +13,7 @@ const Form = () => (
     <Text style={styles.placeholder}>Password</Text>
     <TextInput style={styles.input} secureTextEntry={true} />
   </View>
-);
+)
 
 const styles = StyleSheet.create({
   input: {
