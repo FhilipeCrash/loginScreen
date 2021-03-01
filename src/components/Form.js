@@ -6,26 +6,44 @@ import {
   responsiveFontSize,
 } from 'react-native-responsive-dimensions';
 
+import Password from './../../assets/icons/padlock.svg';
+import User from './../../assets/icons/user2.svg';
+
 const Form = () => (
   <View>
     <Text style={styles.placeholder}>Username or Email</Text>
-    <TextInput placeholderTextColor="#000" style={styles.input} />
+    <View style={styles.inputFull}>
+      <User style={styles.icon} height={64} width={40} fill={"#000"}/>
+      <TextInput placeholderTextColor="#000" style={styles.input} />
+    </View>
     <Text style={styles.placeholder}>Password</Text>
-    <TextInput style={styles.input} secureTextEntry={true} />
+    <View style={styles.inputFull}>
+      <Password style={styles.icon} height={64} width={40} fill={"#000"}/>
+      <TextInput style={styles.input} secureTextEntry={true} />
+    </View>
   </View>
 )
 
 const styles = StyleSheet.create({
+  inputFull: {
+    flexDirection: 'row',
+    flex: 0,
+  },
   input: {
     backgroundColor: '#fff',
     textAlign: 'left',
-    width: responsiveWidth(85),
+    width: responsiveWidth(77.2),
     height: responsiveHeight(7),
-    marginLeft: responsiveWidth(2),
     marginBottom: 30,
     fontFamily: 'DMSans-Bold',
     fontSize: responsiveFontSize(2),
     paddingLeft: responsiveWidth(2),
+  },
+  icon: {
+    backgroundColor: '#fff',
+    marginLeft: responsiveWidth(2),
+    height: responsiveHeight(7),
+    paddingTop: 50,
   },
   placeholder: {
     backgroundColor: '#fff',
